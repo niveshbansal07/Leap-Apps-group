@@ -1,0 +1,896 @@
+
+/* NAME (IMAGE 1) */
+
+.homeImg {
+    width: 100%;
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+.homeImg img {
+    width: 100%;
+    height: 550px;
+    transition: .5s ease;
+}
+
+.textImg {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    color: rgb(254, 255, 255);
+}
+
+.heading1 h1 {
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.heading2 h1 {
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+.headPara1 p {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* RATING (IMAGE 2) */
+
+.homeImg2 {
+    width: 100%;
+    background-color: rgb(236, 235, 235);
+    height: 400px;
+    position: relative;
+    text-align: center;
+}
+
+.homeImg2 img {
+    width: 50%;
+    display: flex;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.textImg2 {
+    position: absolute;
+    top: 50px;
+    color: black;
+    width: 100%;
+}
+
+.heading21 p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.heading22 h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2.1rem;
+}
+
+.heading23 h1 {
+    font-size: 2.1rem;
+    text-align: center;
+}
+
+.starRating h1 {
+    color: #FFA500;
+    font-size: 500%;
+    text-align: center;
+}
+
+.heading24 h3 {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.heading25 h6 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* MAN (IMAGE 3) */
+
+.homeImg3 {
+    background-color: black;
+    height: 800px;
+    width: 100%;
+    display: flex;
+}
+
+.imageMan img {
+    display: block;
+    height: 800px;
+    width: 100%;
+}
+
+.sideManImageText {
+    width: 60%;
+    color: white;
+    padding-top: 50px;
+}
+
+.heading31 h6 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.heading32 h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.appLogoMan {
+    display: flex;
+}
+
+.appLogoMan img {
+    width: 70px;
+    height: 70px;
+    padding: 30px 20px 0 70px;
+}
+
+.appLogoMan_Text {
+    margin-top: 40px;
+}
+
+.para31 p {
+    font-size: 1.1rem;
+    padding: 30px 70px 0 70px;
+}
+
+.para32 p {
+    font-size: 1.1rem;
+    padding: 20px 70px;
+}
+
+.starRating_Man {
+    display: flex;
+    width: 50%;
+}
+
+.starRating_Man span {
+    color: #FFA500;
+    font-size: 130%;
+    padding-left: 68px;
+    display: inline;
+}
+
+.starRating_Man h2 {
+    font-size: 1.2rem;
+    padding: 6px 0 0 10px;
+}
+
+.googlePlay_Man button {
+    height: 0px;
+    width: 0px;
+    margin-top: 18px;
+    margin-left: 70px;
+    border: 2px solid black;
+}
+
+.googlePlay_Man button :hover{
+    transform: scale(1.05);
+}
+
+.googlePlay_Man img {
+    width: 150px;
+    height: 50px;
+}
+
+.horizontal_Man {
+    background: antiquewhite;
+    padding-top: 1px;
+    margin: 40px 140px 0px 70px;
+}
+
+.moreappsHead_Man h2 {
+    width: 50%;
+    padding: 40px 0 0 70px;
+}
+
+.moreApps_Man {
+    width: 50%;
+    padding: 15px 0 0 80px;
+    display: flex;
+}
+
+.moreApps_Man ul {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.moreApps_Man ul li {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.moreApps_Man ul li img {
+    width: 4.5vw;
+    width: 70px;
+}
+
+/* WOMAN (IMAGE 4) */
+
+.homeImg4 {
+    background-color: white;
+    height: 800px;
+    width: 100%;
+    display: flex;
+}
+
+.imageWoman img {
+    display: block;
+    height: 800px;
+    width: 100%;
+}
+
+.sideWomanImageText {
+    width: 60%;
+    color: black;
+    padding-top: 60px;
+}
+
+.heading41 h6 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.heading42 h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.appLogoWoman {
+    display: flex;
+}
+
+.appLogoWoman img {
+    width: 70px;
+    height: 70px;
+    padding: 30px 20px 0 70px;
+    border-radius: 10%;
+}
+
+.appLogoWoman_Text {
+    margin-top: 40px;
+}
+
+.para41 p {
+    font-size: 1.1rem;
+    padding: 30px 70px 5px 70px;
+}
+
+.para42 p {
+    font-size: 1.1rem;
+    padding: 5px 70px;
+}
+
+.para43 p {
+    font-size: 1.1rem;
+    padding: 5px 70px;
+    padding-bottom: 10px;
+}
+
+.starRating_Woman {
+    display: flex;
+    width: 50%;
+}
+
+.starRating_Woman span {
+    color: #FFA500;
+    font-size: 130%;
+    padding-left: 68px;
+    display: inline;
+}
+
+.starRating_Woman h2 {
+    font-size: 1.2rem;
+    padding: 6px 0 0 10px;
+}
+
+.googlePlay_Woman button {
+    height: 0px;
+    width: 0px;
+    margin-top: 18px;
+    margin-left: 70px;
+    border: 2px solid white;
+}
+
+.googlePlay_Woman button :hover{
+    transform: scale(1.05);
+}
+
+.googlePlay_Woman img {
+    width: 150px;
+    height: 50px;
+}
+
+.horizontal_Woman {
+    background: black;
+    padding-top: 1px;
+    margin: 40px 140px 0px 70px;
+}
+
+.moreappsHead_Woman h2 {
+    width: 50%;
+    padding: 40px 0 0 70px;
+}
+
+.moreApps_Woman {
+    width: 50%;
+    padding: 15px 0 0 80px;
+    display: flex;
+}
+
+.moreApps_Woman ul {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.moreApps_Woman ul li {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.moreApps_Woman ul li img {
+    width: 4.5vw;
+}
+
+/* DIET (IMAGE 5) */
+
+.homeImg5 {
+    background-color: black;
+    height: 800px;
+    width: 100%;
+    display: flex;
+}
+
+.imageDiet img {
+    display: block;
+    height: 800px;
+    width: 150%;
+}
+
+.sideDietImageText {
+    width: 60%;
+    color: white;
+    padding-top: 50px;
+}
+
+.heading51 h6 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.heading52 h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.appLogoDiet {
+    display: flex;
+}
+
+.appLogoDiet img {
+    width: 70px;
+    height: 70px;
+    padding: 30px 20px 0 70px;
+}
+
+.appLogoDiet_Text {
+    margin-top: 40px;
+}
+
+.para51 p {
+    font-size: 1.1rem;
+    padding: 30px 70px 5px 70px;
+}
+
+.para52 p {
+    font-size: 1.1rem;
+    padding: 5px 70px;
+}
+
+.para53 p {
+    padding: 5px 70px;
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+}
+
+.starRating_Diet {
+    display: flex;
+    width: 50%;
+}
+
+.starRating_Diet span {
+    color: #FFA500;
+    font-size: 130%;
+    padding-left: 68px;
+    display: inline;
+}
+
+.starRating_Diet h2 {
+    font-size: 1.2rem;
+    padding: 6px 0 0 10px;
+}
+
+.googlePlay_Diet button {
+    height: 0px;
+    width: 0px;
+    margin-top: 18px;
+    margin-left: 70px;
+    border: 2px solid black;
+}
+
+.googlePlay_Diet button :hover{
+    transform: scale(1.05);
+}
+
+.googlePlay_Diet img {
+    width: 150px;
+    height: 50px;
+}
+
+.horizontal_Diet {
+    background: antiquewhite;
+    padding-top: 1px;
+    margin: 40px 140px 0px 70px;
+}
+
+.moreappsHead_Diet h2 {
+    width: 50%;
+    padding: 40px 0 0 70px;
+}
+
+.moreApps_Diet {
+    width: 50%;
+    padding: 15px 0 0 80px;
+    display: flex;
+}
+
+.moreApps_Diet ul {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.moreApps_Diet ul li {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.moreApps_Diet ul li img {
+    width: 4.5vw;
+}
+
+/* REVIEW (IMAGE 6)  */
+
+.Reviews {
+    height: 500px;
+    background-color: #fff;
+}
+
+.reviewText {
+    text-align: center;
+    color: black;
+    padding-top: 60px;
+}
+
+.reviewText p {
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+
+.reviewText h1 {
+    font-size: 2.3rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.block {
+    background-color: rgb(10, 10, 10);
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    color: rgb(255, 255, 255);
+    transition: .4s ease-in;
+}
+
+.block:hover{
+    cursor: pointer;
+    width: 440px;
+    height: 270px;
+}
+
+.block_Profile_1 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.block_Profile_1 h3 {
+    font-size: 1.5em;
+}
+
+.block_Profile_1 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.block_Profile_2 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.block_Profile_2 h3 {
+    font-size: 1.5em;
+}
+
+.block_Profile_2 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.block_Profile_3 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.block_Profile_3 h3 {
+    font-size: 1.5em;
+}
+
+.block_Profile_3 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.block p {
+    padding: 0 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 375px) {
+
+
+    /* NAME (IMAGE 1) */
+
+    .homeImg {
+       width: 100%;
+       height: 280px;
+       background-color: black;
+    }
+
+    .homeImg img {
+       width: 100%;
+       margin-top: 0px;
+       height: 350px;
+    }
+
+    .textImg {
+       padding-top: 20px;
+    }
+
+    .headPara1 p {
+       padding: 12px 20px;
+    }
+
+    /* RATING (IMAGE 2) */
+
+    .homeImg2 {
+       height: 30vh;
+       width: 100%;
+    }
+
+    .homeImg2 img {
+       height: 30vh;
+       width: 100%;
+    }
+
+    /* MAN (IMAGE 2) */
+
+    .homeImg3 {
+       width: 100%;
+       height: 400px;
+    }
+
+    .imageMan img {
+       height: 400px;
+    }
+
+    .appLogoMan {
+       margin-left: 20px;
+    }
+
+    .appLogoMan img {
+       padding-top: 20px;
+       padding-left: 0;
+       width: 45px;
+       height: 45px;
+    }
+
+    .appLogoMan_Text {
+       width: 50px;
+       margin-top: 26px;
+    }
+
+    .para31 p {
+       padding: 20px 20px 0px 20px;
+    }
+
+    .para32 p {
+       padding: 10px 20px 10px 20px;
+    }
+
+    .starRating_Man {
+       width: 200px;
+    }
+
+    .starRating_Man span {
+       padding-left: 20px;
+    }
+
+    .starRating_Man h2 {
+       padding-top: 1.5px;
+    }
+
+    .googlePlay_Man button {
+       margin-top: 10px;
+       margin-left: 20px;
+    }
+
+    .googlePlay_Man img {
+       width: 70px;
+       height: 30px;
+    }
+
+    .horizontal_Man {
+       height: 0px;
+       border: none;
+       margin: 10px 40px 0px 20px;
+       background-color: white;
+    }
+
+    .moreappsHead_Man {
+       display: none;
+    }
+
+    .moreApps_Man {
+       display: none;
+    }
+
+    /* WOMAN (IMAGE 4)  */
+
+    .homeImg4 {
+       width: 100%;
+       height: 400px;
+    }
+
+    .sideWomanImageText {
+       padding-top: 40px;
+    }
+
+    .imageWoman img {
+       height: 400px;
+    }
+
+    .heading42 {
+       margin-left: 30px;
+    }
+
+    .appLogoWoman {
+       margin-left: 20px;
+    }
+
+    .appLogoWoman img {
+       padding-top: 20px;
+       padding-left: 0;
+       width: 45px;
+       height: 45px;
+    }
+
+    .appLogoWoman_Text {
+       width: 60px;
+       margin-top: 26px;
+    }
+
+    .para41 p {
+       padding: 20px 20px 0 20px;
+    }
+
+    .para42 p {
+       padding: 5px 20px 0 20px;
+    }
+
+    .para43 p {
+       padding: 5px 20px 10px 20px;
+    }
+
+    .starRating_Woman {
+       width: 200px;
+    }
+
+    .starRating_Woman span {
+       padding-left: 20px;
+    }
+
+    .starRating_Woman h2 {
+       padding-top: 1.5px;
+    }
+
+    .googlePlay_Woman button {
+       margin-top: 10px;
+       margin-left: 20px;
+    }
+
+    .googlePlay_Woman img {
+       width: 70px;
+       height: 30px;
+    }
+
+    .horizontal_Woman {
+       height: 1px;
+       border: none;
+       margin: 8px 30px 0px 20px;
+       background: black;
+    }
+
+    .moreappsHead_Woman {
+       display: none;
+    }
+
+    .moreApps_Woman {
+       display: none;
+    }
+
+    /* DIET (IMAGE 5) */
+
+    .homeImg5 {
+       width: 100%;
+       height: 400px;
+    }
+
+    .imageDiet img {
+       height: 400px;
+    }
+
+    .appLogoDiet {
+       margin-left: 20px;
+    }
+
+    .appLogoDiet img {
+       padding-top: 20px;
+       padding-left: 0;
+       width: 45px;
+       height: 45px;
+    }
+
+    .appLogoDiet_Text {
+       width: 50px;
+       margin-top: 26px;
+    }
+
+    .para51 p {
+       padding: 20px 20px 0px 20px;
+    }
+
+    .para52 p {
+       padding: 10px 20px 0px 20px;
+    }
+
+    .para53 p {
+       padding: 10px 20px 10px 20px;
+    }
+
+    .starRating_Diet {
+       width: 200px;
+    }
+
+    .starRating_Diet span {
+       padding-left: 20px;
+    }
+
+    .starRating_Diet h2 {
+       padding-top: 1.5px;
+    }
+
+    .googlePlay_Diet button {
+       margin-top: 10px;
+       margin-left: 20px;
+    }
+
+    .googlePlay_Diet img {
+       width: 70px;
+       height: 30px;
+    }
+
+    .horizontal_Diet {
+       height: 0px;
+       border: none;
+       margin: 10px 40px 0px 20px;
+       background-color: white;
+    }
+
+    .moreappsHead_Diet {
+       display: none;
+    }
+
+    .moreApps_Diet {
+       display: none;
+    }
+
+    /* REVIEW (IMAGE 6) */
+
+    .Reviews {
+       width: 100%;
+       height: 505px;
+    }
+
+    .reviewText {
+       padding-top: 20px;
+    }
+
+    .reviewText p {
+       padding-bottom: 5px;
+    }
+
+    .container {
+       margin-top: 20px;
+    }
+
+    .block {
+       width: 90%;
+       height: 125px;
+    }
+    
+    .block:hover{
+        cursor: pointer;
+        width: 92%;
+        height: 135px;
+    }
+
+    /* FOOTER */
+
+    footer {
+       width: 100%;
+       height: 25px;
+    }
+
+    footer p {
+       align-items: center;
+    }
+ }

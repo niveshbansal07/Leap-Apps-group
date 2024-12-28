@@ -1,0 +1,221 @@
+
+.head {
+    background-color: whitesmoke;
+}
+
+.heading1 h1 {
+    padding-top: 30px;
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.heading2 h1 {
+  color: rgb(31, 104, 112);
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+.headPara1 p {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.line1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 2px;
+    background: #000;
+}
+
+.appsContainer1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.appsContainer2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.appsContainer3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.name {
+    width: 200px;
+}
+
+.name h3 {
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.name p {
+    padding-left: 20px;
+    color: rgb(31, 104, 112);
+}
+
+.block {
+    background-color: rgb(10, 10, 10);
+    border-radius: 10px;
+    width: 300px;
+    height: 150px;
+    color: rgb(255, 255, 255);
+    font-family: "Lato", sans-serif;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.block img {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    justify-content: center;
+    border-radius: 15px;
+
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.block:hover .overlay {
+    width: 90%;
+}
+
+.googleplay {
+    position: absolute;
+    top: 33%;
+    left: 25%;
+}
+
+.googleplay button {
+    width: 150px;
+    height: 50px;
+    font-family: "Lato", serif;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.googleplay button h2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.menApp,.womenApp,.otherApp h1{
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Lato", sans-serif;
+    color: black;
+}
+
+.menApp h1 span,.womenApp  h1 span,.otherApp h1 span{
+    color: rgb(31, 104, 112);
+}
+
+.allApps {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .allApps:hover{
+    transform: scale(1.05);
+} */
+
+.googlePlay{
+    margin-bottom: 30px;
+    width: 150px;
+    height: 50px;
+}
+.googlePlay:hover{
+    transform: scale(1.05);
+}
+.googlePlay img {
+    width: 150px;
+    height: 50px;
+}
+
+
+
+
+
+
+  
+@media screen and (max-width: 375px){
+
+    
+     .heading1 h1 {
+        padding-top: 20px;
+     }
+     .headPara1 p {
+        padding-left: 30px;
+        padding-right: 30px;
+     }
+
+     .block{
+        width: 150px;
+        height: 60px;
+     }
+
+     .block img {
+        width: 40px;
+        height: 40px;
+     }
+
+     .googleplay button {
+        width: 75px;
+        height: 25px;
+     }
+
+     .googleplay button h2{
+        font-size: 10px;
+     }
+
+     .allApps img{
+        width: 100px;
+        height: 40px;
+     }
+
+     footer {
+        width: 100%;
+        height: 25px;
+     }
+ 
+     footer p {
+        align-items: center;
+     }
+}

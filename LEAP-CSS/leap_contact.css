@@ -1,0 +1,100 @@
+.heading1 h1 {
+  padding-top: 30px;
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.heading2 h1 {
+  color: rgb(31, 104, 112);
+  text-align: center;
+  font-size: 2.8rem;
+}
+
+.headPara1 p {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.contactUs h1 {
+  margin-top: 30px;
+  text-align: center;
+  color: black;
+  font-size: 3rem;
+}
+
+.contactUs h1 span {
+  color: rgb(31, 104, 112);
+}
+
+/* contact-form */
+
+.contact {
+  margin-top: 30px;
+  min-height: auto;
+  padding-bottom: 7rem;
+  display: flex;
+}
+
+.contact form {
+  height: 40rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact form .input-box .input-field input,
+.contact form .textarea-field textarea {
+  width: 30vw;
+  height: 1vh;
+  padding: 1.5rem;
+  font-size: 1.3rem;
+  background: transparent;
+  border-radius: 0.6rem;
+  border: .16rem solid rgb(0, 0, 0);
+  margin-top: 10px;
+}
+
+.contact form .textarea-field textarea {
+  height: 30vh;
+  resize: none;
+}
+
+.contact form .btn-box .btn {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: black;
+  height: 60px;
+  width: 140px;
+  border-radius: 0.6rem;
+  border: .16rem solid white;
+  color: white;
+  font-size: 1.4rem;
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+
+  .headPara1 p {
+    margin: 0px 30px;
+  }
+
+  .contactUs h1 {
+    margin: 20px 0px;
+  }
+
+  .contact {
+    height: 380px;
+  }
+
+  .contact form .textarea-field textarea {
+    height: 120px;
+  }
+
+  .contact form .btn-box .btn {
+    height: 30px;
+    width: 60px;
+    border-radius: 8px;
+  }
+}
